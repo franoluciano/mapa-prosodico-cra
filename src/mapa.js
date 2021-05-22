@@ -8,7 +8,6 @@ import {
   Polygon,
   Marker,
   useMap,
-  ImageOverlay,
 } from "react-leaflet";
 import zones from "./geojson/zones.json";
 import Menu from "./menu";
@@ -26,7 +25,6 @@ const styles = [
 ];
 
 const Mapa = () => {
-  const [activePath, setActivePath] = useState(null);
   const [activeZone, setActiveZone] = useState(null);
   const [zoneDetails, setZoneDetails] = useState(null);
   const [filteredPoints, setFilteredPoints] = useState([]);

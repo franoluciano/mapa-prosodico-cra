@@ -60,6 +60,7 @@ const Menu = ({
       {point && (
         <>
           <img
+            alt="Gráfico"
             width="100%"
             style={{ padding: 10 }}
             src={"/images/" + point.properties.path.image}
