@@ -33,7 +33,7 @@ const Mapa = () => {
     label: "Frases leídas",
   });
   const [select2, setSelect2] = useState({ value: "urban", label: "Urbano" });
-  const [select3, setSelect3] = useState({ value: "male", label: "Mujer" });
+  const [select3, setSelect3] = useState({ value: "male", label: "Hombre" });
   const [center, setCenter] = useState([-36.95574, -70.04883]);
   const [zoom, setZoom] = useState(4);
 
