@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import zones from "./geojson/zones.json";
 import { AwesomeButton } from "react-awesome-button";
 import Select from "react-select";

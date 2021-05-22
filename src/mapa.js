@@ -90,7 +90,15 @@ const Mapa = () => {
         })
       );
     }
-  }, [zoneDetails, select1, select2, select3, ascSelect, phraseSelect]);
+  }, [
+    zoneDetails,
+    select1,
+    select2,
+    select3,
+    ascSelect,
+    phraseSelect,
+    activeZone,
+  ]);
 
   useEffect(() => {
     if (filteredPoints.length > 0) {
