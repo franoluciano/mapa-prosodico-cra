@@ -1,0 +1,99 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+#main {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  margin: 0 auto 0;
+  padding: 0;
+}
+
+#main-title {
+  float: left;
+  width: 50%;
+}
+
+#zone-nav {
+  margin-left: 50%;
+}
+
+#container {
+  width: 100%;
+  height: 80%;
+}
+
+#container #map {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+#container #content {
+  margin-left: 42%;
+}
+
+#sound-figure > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.leaflet-popup-content div ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+  display: inline;
+}
+
+.leaflet-popup-content div ul li {
+  display: inline;
+}
+
+.leaflet-popup-content div figure img {
+  width: 100%;
+}
+
+.inline {
+  margin: 0;
+  padding: 0;
+}
+
+.inline > * {
+  display: inline-block;
+  line-height: 2.5em;
+  padding: 0;
+}
+
+.zone-button {
+  background-color: #ff7400;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+/*   margin: 4px 2px; */
+  cursor: pointer;
+}
+
+.active-button {
+  background-color: #009999;
+}
+
+.zone-button:hover {
+  background-color: #ff9640;
+}

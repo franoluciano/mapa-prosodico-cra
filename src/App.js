@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Layout from "./layout";
+import Bienvenida from "./bienvenida";
+import Mapa from "./mapa";
+import Final from "./final";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+const App = () => {
+  const [backgroundImage] = useState(
+    "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
   );
-}
+
+  return (
+    <Layout backgroundImage={backgroundImage}>
+      <Bienvenida />
+      <Mapa />
+      <Final />
+    </Layout>
+  );
+};
 
 export default App;

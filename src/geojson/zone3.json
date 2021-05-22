@@ -1,0 +1,271 @@
+{
+  "type":"FeatureCollection",
+  "features":[
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 32,
+        "task": "phrase",
+        "gender": "male",
+        "area": "urban",
+        "speaker": 1,
+        "path": {
+          "audio": "3u-h1-frs-32-las.ogg",
+          "hum": "3u-h1-frs-32-las-hum.ogg",
+          "image": "3u-h1-frs-32-las.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.25801, -29.93713]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": null,
+        "task": "conv",
+        "gender": "male",
+        "area": "urban",
+        "speaker": 2,
+        "path": {
+          "audio": "3u-h2-conv2-C.ogg",
+          "hum": "3u-h2-conv2-C-hum.ogg",
+          "image": "3u-h2-conv2-C.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.25801, -29.93713]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 32,
+        "task": "phrase",
+        "gender": "female",
+        "area": "urban",
+        "speaker": 1,
+        "path": {
+          "audio": "3u-m1-frs-32-las.ogg",
+          "hum": "3u-m1-frs-32-las-hum.ogg",
+          "image": "3u-m1-frs-32-las.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.25801, -29.93713]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": null,
+        "task": "conv",
+        "gender": "female",
+        "area": "urban",
+        "speaker": 1,
+        "path": {
+          "audio": "3u-m1-conv1.ogg",
+          "hum": "3u-m1-conv1-hum.ogg",
+          "image": "3u-m1-conv1.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.25801, -29.93713]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 32,
+        "task": "phrase",
+        "gender": "male",
+        "area": "rural",
+        "speaker": 1,
+        "path": {
+          "audio": "3r-h1-frs-32-las.ogg",
+          "hum": "3r-h1-frs-32-las-hum.ogg",
+          "image": "3r-h1-frs-32-las.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.05785, -29.97695]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": null,
+        "task": "conv",
+        "gender": "male",
+        "area": "rural",
+        "speaker": 3,
+        "path": {
+          "audio": "3r-h3-conv2-L.ogg",
+          "hum": "3r-h3-conv2-L-hum.ogg",
+          "image": "3r-h3-conv2-L.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.05785, -29.97695]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": null,
+        "task": "conv",
+        "gender": "male",
+        "area": "rural",
+        "speaker": 3,
+        "path": {
+          "audio": "3r-h3-conv2-C.ogg",
+          "hum": "3r-h3-conv2-C-hum.ogg",
+          "image": "3r-h3-conv2-C.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.05785, -29.97695]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": null,
+        "task": "conv",
+        "gender": "female",
+        "area": "rural",
+        "speaker": 3,
+        "path": {
+          "audio": "3r-m3-conv2-L.ogg",
+          "hum": "3r-m3-conv2-L-hum.ogg",
+          "image": "3r-m3-conv2-L.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.05785, -29.97695]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": null,
+        "task": "conv",
+        "gender": "female",
+        "area": "rural",
+        "speaker": 3,
+        "path": {
+          "audio": "3r-m3-conv2-C.ogg",
+          "hum": "3r-m3-conv2-C-hum.ogg",
+          "image": "3r-m3-conv2-C.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.05785, -29.97695]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 32,
+        "task": "phrase",
+        "gender": "female",
+        "area": "rural",
+        "speaker": 1,
+        "path": {
+          "audio": "3r-m1-frs-32-las.ogg",
+          "hum": "3r-m1-frs-32-las-hum.ogg",
+          "image": "3r-m1-frs-32-las.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.05785, -29.97695]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 1,
+        "task": "dct",
+        "gender": "male",
+        "area": "rural",
+        "speaker": 1,
+        "path": {
+          "audio": "3r-h1-dct-1.ogg",
+          "hum": "3r-h1-dct-1.ogg",
+          "image": "3r-h1-dct-1.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.05785, -29.97695]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 1,
+        "task": "dct",
+        "gender": "female",
+        "area": "rural",
+        "speaker": 3,
+        "path": {
+          "audio": "3r-m3-dct-1.ogg",
+          "hum": "3r-m3-dct-1.ogg",
+          "image": "3r-m3-dct-1.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.05785, -29.97695]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 1,
+        "task": "dct",
+        "gender": "male",
+        "area": "urban",
+        "speaker": 5,
+        "path": {
+          "audio": "3u-h5-dct-1.ogg",
+          "hum": "3u-h5-dct-1.ogg",
+          "image": "3u-h5-dct-1.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.05785, -29.97695]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 1,
+        "task": "dct",
+        "gender": "female",
+        "area": "urban",
+        "speaker": 1,
+        "path": {
+          "audio": "3u-m1-dct-1.ogg",
+          "hum": "3u-m1-dct-1.ogg",
+          "image": "3u-m1-dct-1.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.05785, -29.97695]
+      }
+    }
+  ]
+}

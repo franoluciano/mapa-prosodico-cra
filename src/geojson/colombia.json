@@ -1,0 +1,24 @@
+{
+  "type":"FeatureCollection",
+  "features":[
+    {
+      "type":"Feature",
+      "properties":{
+        "id": null,
+        "task": "phrase",
+        "gender": "male",
+        "area": "urban",
+        "speaker": null,
+        "path": {
+          "audio": "medellin.ogg",
+          "hum": "medellin-hum.ogg",
+          "image": "medellin.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-75.57495, 6.24395]
+      }
+    }
+  ]
+}

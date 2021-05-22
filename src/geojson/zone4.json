@@ -1,0 +1,233 @@
+{
+  "type":"FeatureCollection",
+  "features":[
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 32,
+        "task": "phrase",
+        "gender": "male",
+        "area": "urban",
+        "speaker": 1,
+        "path": {
+          "audio": "4u-h1-frs-32.ogg",
+          "hum": "4u-h1-frs-32-hum.ogg",
+          "image": "4u-h1-frs-32.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-70.64621, -33.45212]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": null,
+        "task": "conv",
+        "gender": "male",
+        "area": "urban",
+        "speaker": 2,
+        "path": {
+          "audio": "4u-h2-conv1-L.ogg",
+          "hum": "4u-h2-conv1-L-hum.ogg",
+          "image": "4u-h2-conv1-L.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-70.64621, -33.45212]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 32,
+        "task": "phrase",
+        "gender": "female",
+        "area": "urban",
+        "speaker": 1,
+        "path": {
+          "audio": "4u-m1-frs-32.ogg",
+          "hum": "4u-m1-frs-32-hum.ogg",
+          "image": "4u-m1-frs-32.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-70.64621, -33.45212]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": null,
+        "task": "conv",
+        "gender": "female",
+        "area": "urban",
+        "speaker": 2,
+        "path": {
+          "audio": "4u-m2-conv1-L.ogg",
+          "hum": "4u-m2-conv1-L-hum.ogg",
+          "image": "4u-m2-conv1-L.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-70.64621, -33.45212]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 32,
+        "task": "phrase",
+        "gender": "male",
+        "area": "rural",
+        "speaker": 1,
+        "path": {
+          "audio": "4r-h1-frs-32-chin.ogg",
+          "hum": "4r-h1-frs-32-chin-hum.ogg",
+          "image": "4r-h1-frs-32-chin.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.09159, -33.68886]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": null,
+        "task": "conv",
+        "gender": "male",
+        "area": "rural",
+        "speaker": 2,
+        "path": {
+          "audio": "4r-h2-conv1-L.ogg",
+          "hum": "4r-h2-conv1-L-hum.ogg",
+          "image": "4r-h2-conv1-L.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.09159, -33.68886]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 32,
+        "task": "phrase",
+        "gender": "female",
+        "area": "rural",
+        "speaker": 1,
+        "path": {
+          "audio": "4r-m1-frs-32-chin.ogg",
+          "hum": "4r-m1-frs-32-chin-hum.ogg",
+          "image": "4r-m1-frs-32-chin.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.09159, -33.68886]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": null,
+        "task": "conv",
+        "gender": "female",
+        "area": "rural",
+        "speaker": 2,
+        "path": {
+          "audio": "4r-m2-conv1-L.ogg",
+          "hum": "4r-m2-conv1-L-hum.ogg",
+          "image": "4r-m2-conv1-L.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.09159, -33.68886]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 1,
+        "task": "dct",
+        "gender": "male",
+        "area": "rural",
+        "speaker": 1,
+        "path": {
+          "audio": "4r-h1-dct-1.ogg",
+          "hum": "4r-h1-dct-1-hum.ogg",
+          "image": "4r-h1-dct-1.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.09159, -33.68886]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 1,
+        "task": "dct",
+        "gender": "female",
+        "area": "rural",
+        "speaker": 1,
+        "path": {
+          "audio": "4r-m1-dct-1.ogg",
+          "hum": "4r-m1-dct-1-hum.ogg",
+          "image": "4r-m1-dct-1.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.09159, -33.68886]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 1,
+        "task": "dct",
+        "gender": "male",
+        "area": "urban",
+        "speaker": 1,
+        "path": {
+          "audio": "4r-h1-dct-1.ogg",
+          "hum": "4r-h1-dct-1-hum.ogg",
+          "image": "4r-h1-dct-1.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.09159, -33.68886]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 1,
+        "task": "dct",
+        "gender": "female",
+        "area": "urban",
+        "speaker": 1,
+        "path": {
+          "audio": "4r-m1-dct-1.ogg",
+          "hum": "4r-m1-dct-1-hum.ogg",
+          "image": "4r-m1-dct-1.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.09159, -33.68886]
+      }
+    }
+  ]
+}
