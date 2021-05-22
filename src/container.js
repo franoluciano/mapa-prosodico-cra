@@ -5,7 +5,7 @@ const Container = ({ children }) => (
       width: "100%",
       minHeight: "90vh",
       margin: "10px 0",
-      backgroundColor: "rgba(230, 230, 230, 0.8)",
+      backgroundColor: "rgba(255, 255, 255, 1)",
       borderRadius: 5,
       padding: 40,
       boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px",

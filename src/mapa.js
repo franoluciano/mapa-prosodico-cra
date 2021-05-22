@@ -8,6 +8,7 @@ import {
   Polygon,
   Marker,
   useMap,
+  ImageOverlay,
 } from "react-leaflet";
 import zones from "./geojson/zones.json";
 import Menu from "./menu";
@@ -25,6 +26,7 @@ const styles = [
 ];
 
 const Mapa = () => {
+  const [activePath, setActivePath] = useState(null);
   const [activeZone, setActiveZone] = useState(null);
   const [zoneDetails, setZoneDetails] = useState(null);
   const [filteredPoints, setFilteredPoints] = useState([]);
@@ -90,12 +92,13 @@ const Mapa = () => {
                   return (
                     <>
                       <Marker
+                        // icon={icon}
                         key={index}
                         position={[
                           d.geometry.coordinates[1],
                           d.geometry.coordinates[0],
                         ]}
-                      ></Marker>
+                      />
                       <Polygon
                         pathOptions={styles[index]}
                         key={activeZone.properties.name}
@@ -118,10 +121,11 @@ const Mapa = () => {
                   );
                 })}
             {/* <Marker position={center}></Marker> */}
-            <NewCenter newCenter={center} />
+            <NewCenter newCenter={center} activeZone={activeZone} />
           </MapContainer>
         </div>
         <Menu
+          point={filteredPoints[0]}
           activeZone={activeZone}
           setActiveZone={setActiveZone}
           select1={select1}
@@ -153,13 +157,13 @@ const Mapa = () => {
   );
 };
 
-const NewCenter = ({ newCenter }) => {
+const NewCenter = ({ newCenter, activeZone }) => {
   const map = useMap();
   useEffect(() => {
-    if (newCenter !== [-36.95574, -70.04883]) {
+    if (activeZone) {
       map.flyTo(newCenter, 6);
     }
-  }, [map, newCenter]);
+  }, [map, activeZone, newCenter]);
   console.log("map center:", map.getCenter());
   return null;
 };
