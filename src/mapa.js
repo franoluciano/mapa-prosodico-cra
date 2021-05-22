@@ -25,6 +25,15 @@ const styles = [
 ];
 
 const Mapa = () => {
+  const [phraseSelect, setPhraseSelect] = useState({
+    value: 1,
+    label: "Me gusta el pan",
+  });
+
+  const [ascSelect, setAscSelect] = useState({
+    value: 1,
+    label: "Yo aquí, mi trabajo de campo, no más.",
+  });
   const [activeZone, setActiveZone] = useState(null);
   const [zoneDetails, setZoneDetails] = useState(null);
   const [filteredPoints, setFilteredPoints] = useState([]);
@@ -48,15 +57,40 @@ const Mapa = () => {
   useEffect(() => {
     if (zoneDetails && select1 && select2 && select3) {
       setFilteredPoints(
-        zoneDetails.filter(
-          ({ properties }) =>
+        zoneDetails.filter(({ properties }) => {
+          if (properties.task === "asc") {
+            setSelect2({ value: "rural", label: "Rural" });
+            setSelect3({ value: "female", label: "Mujer" });
+            return (
+              properties.task === select1.value &&
+              properties.area === select2.value &&
+              properties.gender === select3.value &&
+              properties.speaker === ascSelect.value
+            );
+          }
+
+          if (
+            properties.task === "phrase" &&
+            activeZone &&
+            activeZone.properties.index === 1
+          ) {
+            return (
+              properties.task === select1.value &&
+              properties.area === select2.value &&
+              properties.gender === select3.value &&
+              properties.speaker === phraseSelect.value
+            );
+          }
+
+          return (
             properties.task === select1.value &&
             properties.area === select2.value &&
             properties.gender === select3.value
-        )
+          );
+        })
       );
     }
-  }, [zoneDetails, select1, select2, select3]);
+  }, [zoneDetails, select1, select2, select3, ascSelect, phraseSelect]);
 
   useEffect(() => {
     if (filteredPoints.length > 0) {
@@ -65,7 +99,6 @@ const Mapa = () => {
       const newCenter = [coordinates[1], coordinates[0]];
       setCenter(newCenter);
       setZoom(6);
-      console.log("new center", newCenter);
     }
   }, [filteredPoints]);
 
@@ -132,6 +165,10 @@ const Mapa = () => {
           setSelect2={setSelect2}
           select3={select3}
           setSelect3={setSelect3}
+          ascSelect={ascSelect}
+          setAscSelect={setAscSelect}
+          phraseSelect={phraseSelect}
+          setPhraseSelect={setPhraseSelect}
         />
       </div>
       <div

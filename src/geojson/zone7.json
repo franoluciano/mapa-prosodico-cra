@@ -228,6 +228,44 @@
         "type":"Point",
         "coordinates":[-73.63252, -42.85247]
       }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 1,
+        "task": "asc",
+        "gender": "female",
+        "area": "rural",
+        "speaker": 1,
+        "path": {
+          "audio": "7r-m2-cvi-7-pilq.ogg",
+          "hum": "7r-m2-cvi-7_T_pilq.ogg",
+          "image": "7r-m2-cvi-7-pilq.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-73.63252, -42.85247]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id": 1,
+        "task": "asc",
+        "gender": "female",
+        "area": "rural",
+        "speaker": 2,
+        "path": {
+          "audio": "7r-m3-cvi-27-pilq.ogg",
+          "hum": "7r-m3-cvi-27_T_pilq.ogg",
+          "image": "7r-m3-cvi-27-pilq.png"
+        }
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-73.63252, -42.85247]
+      }
     }
   ]
 }
